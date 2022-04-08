@@ -9,7 +9,7 @@
   <project name="proprietary_vendor_firmware" path="vendor/firmware" remote="gs290-dev" />
   <project name="proprietary_vendor_gigaset" path="vendor/gigaset" remote="gs290-dev" />
 
-  <project name="android_packages_modules_MtkFMRadio" path="packages/apps/MtkFMRadio" remote="gs290-dev" />
+  <project name="android_packages_apps_MtkFMRadio" path="packages/apps/MtkFMRadio" remote="gs290-dev" />
   <project name="android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="gs290-dev" />
   <remove-project name="LineageOS/android_packages_modules_Wifi" />
   <project name="android_packages_modules_Wifi" path="packages/modules/Wifi" remote="gs290-dev" />
