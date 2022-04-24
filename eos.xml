@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="fdroid" fetch="https://gitlab.com/fdroid/" />
-  <remote name="sfX" fetch="https://github.com/sfX-Android/" />
+  <project name="suicide-squirrel/android_vendor_fdroid" path="vendor/fdroid" remote="github" revision="eos" />
+  
   <remote name="gs290-dev" fetch="https://github.com/schoeller" revision="lineage-18.1" />
   <project name="android_device_gigaset_GX290-unified" path="device/gigaset/GX290-unified" remote="gs290-dev" />
   <project name="android_device_gigaset_mt6763-common" path="device/gigaset/mt6763-common" remote="gs290-dev" />
@@ -15,5 +15,5 @@
   <remove-project name="LineageOS/android_frameworks_av" />
   <project name="android_frameworks_av" path="frameworks/av" remote="gs290-dev" />
 
-  <project name="steadfasterX/android_vendor_e" path="vendor/e" remote="e" revision="v1-r" />
+  <project path="vendor/e" name="steadfasterX/android_vendor_e" remote="e" revision="main" />
 </manifest>
