@@ -15,5 +15,5 @@
   <remove-project name="LineageOS/android_frameworks_av" />
   <project name="android_frameworks_av" path="frameworks/av" remote="gs290-dev" />
 
-  <project path="vendor/e" name="steadfasterX/android_vendor_e" remote="e" revision="main" />
+  <project path="vendor/e" name="steadfasterX/android_vendor_e" remote="e" revision="v1-r" />
 </manifest>
